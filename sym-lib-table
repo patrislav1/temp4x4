@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ADS124S08IPBS)(type Legacy)(uri ${KIPRJMOD}/KiCAD/ADS124S08IPBS.lib)(options "")(descr ""))
+  (lib (name LP5907MFX-3.3_NOPB)(type Legacy)(uri ${KIPRJMOD}/KiCAD/LP5907MFX-3.3_NOPB.lib)(options "")(descr ""))
+)
