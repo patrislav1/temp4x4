@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LP5907MFX-3.3/NOPB
+#
+DEF LP5907MFX-3.3/NOPB U 0 40 Y Y 1 L N
+F0 "U" -412 451 50 H V L BNN
+F1 "LP5907MFX-3.3/NOPB" -422 -529 50 H V L BNN
+F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
+F3 "LP5907MFX-3.3/NOPB" 0 0 50 H I L BNN
+F4 "SOT-23 Texas Instruments" 0 0 50 H I L BNN
+F5 "https://www.digikey.in/product-detail/en/texas-instruments/LP5907MFX-3.3-NOPB/296-38557-1-ND/5034443?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" 0 0 50 H I L BNN
+F6 "296-38557-1-ND" 0 0 50 H I L BNN
+F7 "Texas Instruments" 0 0 50 H I L BNN
+F8 "250mA, Ultra-Low Noise Low-Dropout egulator 5-SOT-23 -40 to 125" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 400 400 400 N
+P 2 0 0 16 400 400 400 -400 N
+P 2 0 0 16 400 -400 -400 -400 N
+P 2 0 0 16 -400 -400 -400 400 N
+X EN 3 -600 0 200 R 40 40 0 0 I 
+X IN 1 -600 200 200 R 40 40 0 0 I 
+X OUT 5 600 200 200 L 40 40 0 0 O 
+X GND 2 600 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
