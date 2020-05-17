@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name temp4x4)(type KiCad)(uri ${KIPRJMOD}/KiCAD/temp4x4.pretty)(options "")(descr ""))
+)
