@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -112,13 +112,6 @@ Connection ~ 2650 1150
 Wire Wire Line
 	2650 1500 2650 1550
 Connection ~ 2650 1550
-Wire Wire Line
-	6300 1750 5900 1750
-Connection ~ 5900 1550
-Wire Wire Line
-	5900 1750 5900 1550
-Wire Wire Line
-	5900 1550 6300 1550
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5EC5851A
@@ -130,8 +123,6 @@ F 3 "" H 5900 1200 50  0001 C CNN
 	1    5900 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 1550 5900 1300
 Text GLabel 9050 800  2    50   Input ~ 0
 CS
 Text GLabel 9050 1150 2    50   Input ~ 0
@@ -167,8 +158,6 @@ Wire Wire Line
 Connection ~ 8500 3750
 Wire Wire Line
 	8500 3950 8500 4100
-Text GLabel 5900 1950 0    50   Input ~ 0
-IOREF
 Wire Wire Line
 	5900 1950 6300 1950
 $Comp
@@ -330,7 +319,6 @@ F 3 "~" H 5600 1750 50  0001 C CNN
 	1    5600 1750
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5900 1750
 $Comp
 L Device:C C?
 U 1 1 5ECEAF28
@@ -354,19 +342,13 @@ F 3 "~" H 5350 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 1750 5750 1750
-Wire Wire Line
 	5900 1300 5750 1300
-Connection ~ 5900 1300
 Wire Wire Line
 	5900 1300 5900 1200
 Wire Wire Line
 	5450 1300 5350 1300
 Wire Wire Line
-	5350 1300 5350 1750
-Wire Wire Line
 	5450 1750 5350 1750
-Connection ~ 5350 1750
 Wire Wire Line
 	5350 1750 5350 1850
 $Comp
@@ -828,4 +810,48 @@ Wire Wire Line
 	1200 1850 1200 1350
 Wire Wire Line
 	1150 3850 1350 3850
+Wire Wire Line
+	5750 1750 5900 1750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EEA60FB
+P 5900 1650
+F 0 "#PWR?" H 5900 1500 50  0001 C CNN
+F 1 "+3V3" H 5915 1823 50  0000 C CNN
+F 2 "" H 5900 1650 50  0001 C CNN
+F 3 "" H 5900 1650 50  0001 C CNN
+	1    5900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1650 5900 1750
+Connection ~ 5900 1750
+Wire Wire Line
+	5900 1750 6300 1750
+Wire Wire Line
+	6300 1550 6300 1300
+Wire Wire Line
+	6300 1300 5900 1300
+Connection ~ 5900 1300
+$Comp
+L power:Earth #PWR?
+U 1 1 5EEB2969
+P 5350 1400
+F 0 "#PWR?" H 5350 1150 50  0001 C CNN
+F 1 "Earth" H 5350 1250 50  0001 C CNN
+F 2 "" H 5350 1400 50  0001 C CNN
+F 3 "~" H 5350 1400 50  0001 C CNN
+	1    5350 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1300 5350 1400
+Text GLabel 5900 1950 0    50   Input ~ 0
+IOREF
+$Sheet
+S 6500 4950 1850 1300
+U 5EC374D6
+F0 "two_rtd_plus_ref" 50
+F1 "two_rtd_plus_ref.sch" 50
+$EndSheet
 $EndSCHEMATC
