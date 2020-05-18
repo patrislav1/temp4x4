@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /mnt/code/temp4x4/temp4x4.sch)
-    (date "Mo 18 Mai 2020 18:22:44 CEST")
+    (date "Mo 18 Mai 2020 18:24:47 CEST")
     (tool "Eeschema 5.1.6-c6e7f7d~86~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -275,6 +275,7 @@
       (tstamp 5EC49006))
     (comp (ref J5)
       (value "Bypass 2nd RTD")
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x02_Male) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /RTD_0_1/) (tstamps /5EC374D6/))
@@ -407,6 +408,7 @@
       (tstamp 5EC49006))
     (comp (ref J8)
       (value "Bypass 2nd RTD")
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x02_Male) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /RTD_1_2/) (tstamps /5ED0B429/))
