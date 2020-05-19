@@ -667,7 +667,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5EC33D30)
-    (at 129.803 136.652 180)
+    (at 134.103 138.43 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5EC374D6/5EC48FDD)
@@ -703,7 +703,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5EC33D41)
-    (at 129.794 139.192)
+    (at 129.785 138.43)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5EC374D6/5EC48FD1)
@@ -991,7 +991,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5EC33DC9)
-    (at 143.002 136.398 180)
+    (at 138.684 138.43)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ED0B429/5EC48FDD)
@@ -1015,9 +1015,9 @@
     (fp_line (start -1.85 0.95) (end 1.85 0.95) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.85 0.95) (end 1.85 -0.95) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.85 -0.95) (end -1.85 -0.95) (layer B.CrtYd) (width 0.05))
-    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.217391)
       (net 1 Earth))
-    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0) (size 1.15 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.217391)
       (net 16 /RTD_1_2/REF_P))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -1027,7 +1027,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer B.Cu) (tedit 5B36C52B) (tstamp 5EC33DDA)
-    (at 143.002 139.192 180)
+    (at 142.993 138.43 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5ED0B429/5EC48FD1)

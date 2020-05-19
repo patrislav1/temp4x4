@@ -450,7 +450,7 @@ AR Path="/5EC374D6/5ECF80D6" Ref="J5"  Part="1"
 AR Path="/5ED0B429/5ECF80D6" Ref="J8"  Part="1" 
 F 0 "J8" H 4008 3331 50  0000 C CNN
 F 1 "Bypass 2nd RTD" H 4008 3240 50  0000 C CNN
-F 2 "" H 3900 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3900 3150 50  0001 C CNN
 F 3 "~" H 3900 3150 50  0001 C CNN
 	1    3900 3150
 	1    0    0    -1  
