@@ -2550,4 +2550,24 @@
   (segment (start 135.64 129.159) (end 135.64 127.33219) (width 0.25) (layer F.Cu) (net 45))
   (segment (start 136.73419 126.238) (end 151.638 126.238) (width 0.25) (layer F.Cu) (net 45))
 
+  (zone (net 1) (net_name Earth) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.25))
+    (min_thickness 0.254)
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 161.798 151.638) (xy 109.982 151.638) (xy 109.982 125.222) (xy 161.798 125.222)
+      )
+    )
+  )
+  (zone (net 1) (net_name Earth) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.25))
+    (min_thickness 0.254)
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 161.798 151.638) (xy 109.982 151.638) (xy 109.982 125.222) (xy 161.798 125.222)
+      )
+    )
+  )
 )
