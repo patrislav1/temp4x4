@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -400,19 +400,6 @@ Wire Wire Line
 	5600 1100 5600 1200
 Text GLabel 6250 1800 2    50   Input ~ 0
 IOREF
-$Sheet
-S 3950 4050 1250 1150
-U 5EC374D6
-F0 "RTD_0_1" 50
-F1 "two_rtd_plus_ref.sch" 50
-F2 "IEXC" I R 5200 4250 50 
-F3 "RTD0_P" O R 5200 4400 50 
-F4 "RTD0_N" O R 5200 4500 50 
-F5 "RTD1_P" O R 5200 4650 50 
-F6 "RTD1_N" O R 5200 4750 50 
-F7 "REF_P" O R 5200 4900 50 
-F8 "REF_N" O R 5200 5000 50 
-$EndSheet
 Wire Wire Line
 	6700 4950 6700 5000
 Wire Wire Line
@@ -423,19 +410,6 @@ Wire Wire Line
 	7000 4950 6700 4950
 Connection ~ 6700 4950
 NoConn ~ 7000 2650
-$Sheet
-S 3950 2350 1250 1150
-U 5ED0B429
-F0 "RTD_1_2" 50
-F1 "two_rtd_plus_ref.sch" 50
-F2 "IEXC" I R 5200 2550 50 
-F3 "RTD0_P" O R 5200 2700 50 
-F4 "RTD0_N" O R 5200 2800 50 
-F5 "RTD1_P" O R 5200 2950 50 
-F6 "RTD1_N" O R 5200 3050 50 
-F7 "REF_P" O R 5200 3200 50 
-F8 "REF_N" O R 5200 3300 50 
-$EndSheet
 $Comp
 L power:Earth #PWR06
 U 1 1 5EC333C1
@@ -572,38 +546,6 @@ $EndComp
 NoConn ~ 1550 4050
 NoConn ~ 1550 3950
 NoConn ~ 1550 3850
-Wire Wire Line
-	5200 3200 5900 3200
-Wire Wire Line
-	5200 3300 5800 3300
-Wire Wire Line
-	5650 4250 5200 4250
-Wire Wire Line
-	6000 4400 5200 4400
-Wire Wire Line
-	6100 4500 5200 4500
-Wire Wire Line
-	6200 4650 5200 4650
-Wire Wire Line
-	6300 4750 5200 4750
-Wire Wire Line
-	6400 4900 5200 4900
-Wire Wire Line
-	6500 5000 5200 5000
-Wire Wire Line
-	6700 2550 6700 2850
-Wire Wire Line
-	6700 2850 7000 2850
-Wire Wire Line
-	5200 2550 6700 2550
-Wire Wire Line
-	5200 2700 6600 2700
-Wire Wire Line
-	5200 2800 6500 2800
-Wire Wire Line
-	7000 3350 5650 3350
-Wire Wire Line
-	5650 3350 5650 4250
 $Comp
 L ADS124S08IPBS:ADS124S08IPBS U2
 U 1 1 5EC39B81
@@ -615,69 +557,5 @@ F 3 "" H 8000 3350 60  0000 C CNN
 	1    8000 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 3250 7000 3250
-Wire Wire Line
-	6600 2700 6600 3250
-Wire Wire Line
-	6500 3150 7000 3150
-Wire Wire Line
-	6500 2800 6500 3150
-Wire Wire Line
-	5200 2950 6000 2950
-Wire Wire Line
-	6400 3050 7000 3050
-Wire Wire Line
-	5200 3050 6300 3050
-Wire Wire Line
-	6300 3050 6300 2950
-Wire Wire Line
-	6300 2950 7000 2950
-Wire Wire Line
-	6000 2950 6000 3150
-Wire Wire Line
-	6000 3150 6400 3150
-Wire Wire Line
-	6400 3150 6400 3050
-Wire Wire Line
-	6200 3650 7000 3650
-Wire Wire Line
-	6200 3650 6200 4650
-Wire Wire Line
-	6300 4750 6300 3550
-Wire Wire Line
-	6300 3550 7000 3550
-Wire Wire Line
-	6000 4400 6000 3850
-Wire Wire Line
-	6000 3850 7000 3850
-Wire Wire Line
-	6100 4500 6100 3750
-Wire Wire Line
-	6100 3750 7000 3750
-Wire Wire Line
-	6400 4050 7000 4050
-Wire Wire Line
-	6400 4050 6400 4900
-Wire Wire Line
-	6500 4150 7000 4150
-Wire Wire Line
-	6500 4150 6500 5000
-Wire Wire Line
-	5900 4250 6850 4250
-Wire Wire Line
-	6850 4250 6850 4350
-Wire Wire Line
-	6850 4350 7000 4350
-Wire Wire Line
-	5900 3200 5900 4250
-Wire Wire Line
-	5800 4350 6750 4350
-Wire Wire Line
-	6750 4350 6750 4450
-Wire Wire Line
-	6750 4450 7000 4450
-Wire Wire Line
-	5800 3300 5800 4350
 NoConn ~ 1550 4150
 $EndSCHEMATC
